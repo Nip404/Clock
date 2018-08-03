@@ -10,10 +10,13 @@ pygame.init()
 screen = pygame.display.set_mode(s,0,32)
 pygame.display.set_caption("Clock by NIP")
 
-numfont = pygame.font.SysFont("Garamond MS",20)
-
 def main():
-    clock = Clock(screen,numfont,[s[0]/2,s[1]/2+100],[s[0]/2,s[1]/2-100],200,[i/2 for i in s])
+    # Defaults:
+        # Param 1 (REQUIRED): surface = pygame.Surface([500,500])
+        # Param 2: fontsize = 20
+        # Param 3: radius = 200
+        # Param 4: centre = [250,250]
+    clock = Clock(screen)
 
     while True:
         screen.fill((255,255,255))
