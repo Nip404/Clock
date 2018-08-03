@@ -1,6 +1,8 @@
 # Clock
 A graphical clock in Python 3.x using the Pygame library.
 
+I have included the ability to customise the radius of the clock, the centre point, and the size of the surface.
+
 # Maths
 I calculate the coordinates of the circumference of the circle using these equations:
 - x = cx + r * cos(theta)
