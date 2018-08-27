@@ -15,6 +15,5 @@ Refer to this [wikipedia article](http://en.wikipedia.org/wiki/Circle#Equations)
 
 # Requirements
 I am using the [Python 3.7](https://www.python.org/downloads/release/python-370/) IDLE.\
-Download project and run main.py to use.\
 Python 3.x and Pygame 1.7.x or above is required.\
-You can download pygame either [here](https://www.pygame.org/download.shtml) or [here](https://bitbucket.org/pygame/pygame/downloads/).
+You can download pygame either [here](https://www.pygame.org/download.shtml),[here](https://bitbucket.org/pygame/pygame/downloads/) or [here](https://www.lfd.uci.edu/~gohlke/pythonlibs/#pygame).
