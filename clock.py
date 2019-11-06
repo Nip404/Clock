@@ -1,13 +1,13 @@
-from clock import Clock
+from engine import Clock
 import pygame
 import datetime
 
 # window size
-s = [500,500]
+s = [500, 500]
 
 # initialisations
 pygame.init()
-screen = pygame.display.set_mode(s,0,32)
+screen = pygame.display.set_mode(s, 0, 32)
 pygame.display.set_caption("Clock by NIP")
 
 def main():
@@ -19,7 +19,7 @@ def main():
     clock = Clock(screen)
 
     while True:
-        screen.fill((255,255,255))
+        screen.fill((255, 255, 255))
 
         clock.events()
         clock.update(datetime.datetime.now())
